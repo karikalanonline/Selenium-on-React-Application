@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="testcases.DeletePackage">
+        <methods>
+          <include name="deleteFA"/>
+          <include name="preCondition"/>
+        </methods>
+      </class> <!-- testcases.DeletePackage -->
+      <class name="testcases.CloneProduct">
+        <methods>
+          <include name="cloneFA"/>
+          <include name="preCondition"/>
+        </methods>
+      </class> <!-- testcases.CloneProduct -->
+      <class name="testcases.DeleteStandaloneAddons">
+        <methods>
+          <include name="deleteStandaloneAddons"/>
+          <include name="preCondition"/>
+        </methods>
+      </class> <!-- testcases.DeleteStandaloneAddons -->
+      <class name="testcases.NewProudctCreation">
+        <methods>
+          <include name="createNewFA"/>
+          <include name="preCondition"/>
+        </methods>
+      </class> <!-- testcases.NewProudctCreation -->
+      <class name="testcases.AddStandaloneAddons">
+        <methods>
+          <include name="addStandaloneAddons"/>
+          <include name="preCondition"/>
+        </methods>
+      </class> <!-- testcases.AddStandaloneAddons -->
+      <class name="testcases.AddProduct">
+        <methods>
+          <include name="addProducts"/>
+          <include name="preCondition"/>
+        </methods>
+      </class> <!-- testcases.AddProduct -->
+      <class name="testcases.DeleteProduct">
+        <methods>
+          <include name="deleteProduct"/>
+          <include name="preCondition"/>
+        </methods>
+      </class> <!-- testcases.DeleteProduct -->
+      <class name="testcases.AddDynamicGroups">
+        <methods>
+          <include name="addStandaloneAddons"/>
+          <include name="preCondition"/>
+        </methods>
+      </class> <!-- testcases.AddDynamicGroups -->
+      <class name="testcases.RemoveAccountAssociations">
+        <methods>
+          <include name="removeAccountAssociation"/>
+          <include name="preCondition"/>
+        </methods>
+      </class> <!-- testcases.RemoveAccountAssociations -->
+      <class name="testcases.AccountAssociations">
+        <methods>
+          <include name="associateAccounts"/>
+          <include name="preCondition"/>
+        </methods>
+      </class> <!-- testcases.AccountAssociations -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
